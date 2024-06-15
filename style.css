@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.channel {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.channel img {
+    max-width: 100px;
+    vertical-align: middle;
+}
+.channel a {
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.channel a:hover {
+    color: #007BFF;
+}

@@ -4,57 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fútbol en Vivo</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .channel {
-            background-color: #fff;
-            margin: 10px 0;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .channel img {
-            max-width: 100px;
-            vertical-align: middle;
-        }
-        .channel a {
-            margin-left: 20px;
-            font-size: 20px;
-            text-decoration: none;
-            color: #333;
-        }
-        .channel a:hover {
-            color: #007BFF;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Ver Fútbol en Vivo</h1>
-        
-        <div class="channel">
-            <img src="https://via.placeholder.com/100" alt="TyC Sports">
-            <a href="https://futbollibretv.nu/ver-tyc-sports" target="_blank">Ver TyC Sports</a>
-        </div>
-        <div class="channel">
-            <img src="https://via.placeholder.com/100" alt="ESPN Premium">
-            <a href="https://futbollibretv.nu/ver-espn-premium" target="_blank">Ver ESPN Premium</a>
-        </div>
-        <div class="channel">
-            <img src="https://via.placeholder.com/100" alt="TNT Sports">
-            <a href="https://futbollibretv.nu/ver-tnt-sports" target="_blank">Ver TNT Sports</a>
-        </div>
-        <!-- Add more channels as needed -->
-        
+        <div id="channels"></div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
